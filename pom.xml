@@ -26,7 +26,7 @@
             <version>1.0.0-beta2</version>
         </dependency>
     </dependencies>
-    <buid>
+    <build>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-compiler-plugin</artifactId>
@@ -37,6 +37,6 @@
           <artifactId>sonar-maven-plugin</artifactId>
           <version>3.9.1.2184</version>
         </plugin>
-    </buid>
+    </build>
 
 </project>
