@@ -13,7 +13,7 @@
     <maven.compiler.release>11</maven.compiler.release>
     <maven.compiler.source>6</maven.compiler.source>
     <maven.compiler.target>1.6</maven.compiler.target>
-  </properties>
+    </properties>
     <dependencies>
         <dependency>
             <groupId>commons-collections</groupId>
@@ -26,5 +26,17 @@
             <version>1.0.0-beta2</version>
         </dependency>
     </dependencies>
+    <buid>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-compiler-plugin</artifactId>
+          <version>3.8.1</version>
+        </plugin>
+        <plugin>
+          <groupId>org.sonarsource.scanner.maven</groupId>
+          <artifactId>sonar-maven-plugin</artifactId>
+          <version>3.9.1.2184</version>
+        </plugin>
+    </buid>
 
 </project>
